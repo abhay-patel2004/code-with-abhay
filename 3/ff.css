@@ -1,0 +1,134 @@
+body{
+    background-image: url(https://i.pinimg.com/474x/82/4a/c1/824ac18242d664c862edb6b975cedb4e.jpg);
+  
+        
+        background-size: cover; 
+        background-repeat: no-repeat;
+       
+        height: 100vh; 
+        width: 100vh; 
+        overflow: hidden;
+    
+           
+
+}
+.main {
+    width: 100%;
+    max-width: 100vw;
+    overflow: hidden;
+}
+
+.nav img{
+    height: 120px;
+    width: auto;
+    color: aliceblue;
+    margin: 10px;
+    
+}
+.nav{
+    height: 110px;
+    width:100% ;
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+.nav-part-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.nav-part-1 ul{
+display: flex;
+justify-content: center;
+align-items: center;
+list-style: none;
+font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.nav-part-1 ul li{
+    font-size: 1.1em;
+
+    text-decoration: none;
+    padding: 3px 24px;
+    background: #6F4E37;
+    border-radius: 10px;
+    border: 2px solid #6F4E37;
+ 
+   cursor: pointer;
+    color: #fff;
+    text-decoration: none ;
+    margin-right: 10px;
+    font-weight:500  ;
+    transition:1s ;
+
+  }
+  .nav-part-1 ul li:hover{
+    color:#6F4E37;
+   
+  }
+  .right {
+    position:absolute;
+    top: 10px; 
+    right: 35px; 
+    
+    color: #6F4E37;
+    font-size: 12px; 
+    font-family:'Trebuchet MS', sans-serif ;
+    cursor: pointer;
+    
+}
+
+.papa {
+  padding:20px 0 0 80px;
+  font-size:24px;
+  color: #6F4E37;
+  font-family:Comic Sans MS, Comic Sans, cursive;
+}
+.papa h1{
+    padding:50px 0 0 40px;
+}
+.SOCIAL-ICON{
+    position: absolute;
+    bottom: 50px;
+    padding-left: 90px;
+    padding-bottom: 90px;
+}
+.SOCIAL-ICON a{ 
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background:	#6F4E37;
+    border-radius: 50%;
+    margin-right: 22px;
+    text-align: center;
+    line-height: 35px;
+    border: 2px solid #fff;
+    outline: 2px solid 	hsl(25, 34%, 33%);
+    transition: 2s;
+}
+.SOCIAL-ICON a:hover{
+    transform:rotate(360deg);
+}
+.SOCIAL-ICON a i{
+color:#fff
+}
+.icon1{ 
+    font-size: 40px;
+    
+    color:	#6F4E37;
+    
+    
+}
+.icon1:hover{
+    color: #e119b9;
+   
+}
+.img-1{
+    position: absolute;
+    top: 52px;
+    right: 295px;
+    width: 223px
+    
+   
+}
